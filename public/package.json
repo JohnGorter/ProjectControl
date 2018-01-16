@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@iconica/iconicaelements": "^1.0.34",
+    "@polymer/app-layout": "next",
+    "@polymer/iron-icons": "next",
+    "@polymer/iron-pages": "next",
+    "@polymer/paper-button": "next",
+    "@polymer/paper-checkbox": "next",
+    "@polymer/paper-icon-button": "next",
+    "@polymer/paper-item": "next",
+    "@polymer/paper-listbox": "next",
+    "sw-precache": "^5.2.0"
+  }
+}

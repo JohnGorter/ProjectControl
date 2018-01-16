@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project App</title>
+    <meta name="description" content="Project App">
+    <!-- See https://goo.gl/qRE0vM -->
+    <meta name="theme-color" content="#283593">
+
+    <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Project App">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Project App">
+
+    <!-- <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" /> -->
+
+    <!-- Homescreen icons -->
+    <link rel="apple-touch-icon" href="/images/Icon-48.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/Icon-72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/images/Icon-96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/Icon-144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/images/Icon-192.png">
+
+    <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/images/manifest/Icon-144.png">
+    <meta name="msapplication-TileColor" content="#3f51b5">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <link rel="shortcut icon" type="image/png" href="/images/Icon-144.png">
+
+    <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-lite.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.2/firebase-firestore.js"></script>
+    
+    <link rel="manifest" href="/manifest.json">
+    <!-- <script src="/src/swreg.js"></script>  -->
+</head>
+    <body>
+        <project-app></project-app>
+    </body>
+    <script type="module">
+        import './src/project-app.js'
+    </script>
+</html>
