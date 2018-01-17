@@ -3,18 +3,17 @@ const htmlTemplate = `
     <custom-style>
         <style>
             html { overscroll-behavior:none;overflow: hidden;height: 100%;}
-            body { user-select: none;margin:0px;background-color:var(--light-primary-color); font-family: 'Roboto', 'Noto';height: 100%; overflow: auto;}
-
-
-            :root { 
-                --dark-primary-color:#455A64; 
-                --default-primary-color:#607D8B;
-                --light-primary-color: #CFD8DC; 
+            body { user-select: none;margin:0px;background-color:var(--background-color); font-family: 'Roboto', 'Noto';height: 100%; overflow: auto;}
+                    :root { 
+                --dark-primary-color:#0A324E; 
+                --default-primary-color:#136872;
+                --light-primary-color: #ECECEC; 
                 --text-primary-color: #FFFFFF; 
-                --accent-color: #536DFE; 
-                --primary-text-color: #656565; 
-                --secondary-text-color: #757575; 
-                --divider-color: #BDBDBD; 
+                --accent-color: #18C29C; 
+                --primary-text-color: #000; 
+                --secondary-text-color: #136872; 
+                --divider-color: #BDBDBD;
+                --background-color: #ECECEC;
             }
         </style>
     </custom-style>

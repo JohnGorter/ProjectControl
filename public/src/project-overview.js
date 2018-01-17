@@ -12,8 +12,8 @@ import './project-info.js'
 
 const htmlTemplate = `
     <style>
-        .overviewcontainer { border-radius:5px;overflow:hidden;position:relative; display:flex;border:0px solid black;height:80px;margin:10px;text-align:center;transition:height 0.2s ease-in-out;}
-        .overviewtitle { padding-top:20px;will-change:transform;position:absolute;width:100%; z-index:2;background-color:var(--dark-primary-color);color:var(--light-primary-color);height:100%;transition:transform 0.1s ease-in-out;}
+            .overviewcontainer {overflow:hidden;position:relative; display:flex;border:0px solid black;height:80px;text-align:center;transition:height 0.2s ease-in-out; display:flex;justify-content: space-around;}
+        .overviewtitle {display:flex;flex-direction:column;justify-content: center;padding-top:16px;will-change:transform;position:absolute;width:100%; z-index:2;background-color:var(--dark-primary-color);color:var(--light-primary-color);height:100%;transition:transform 0.1s ease-in-out;}
         .overviewactions { position:absolute;width:200px;z-index:0;height:100%;right:0px;}
         div[left] { transform:translateX(-200px);}
         .overviewaction { height:100%;display:flex;}
